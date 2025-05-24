@@ -1,0 +1,4 @@
+.env
+premium_users.json
+node_modules/
+dist/
