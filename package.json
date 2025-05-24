@@ -1,16 +1,17 @@
 {
-  "name": "discord-external-app",
+  "name": "nukecord-bot",
   "version": "1.0.0",
-  "description": "A Discord bot with spam, chat, and raid commands",
-  "main": "index.js",
+  "main": "dist/bot.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "engines": {
-    "node": "18.x"
+    "build": "tsc",
+    "start": "node dist/bot.js"
   },
   "dependencies": {
-    "discord.js": "^14.7.1",
-    "dotenv": "^16.0.3"
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.5"
   }
 }
